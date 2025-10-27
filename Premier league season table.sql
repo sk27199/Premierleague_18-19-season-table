@@ -1,4 +1,3 @@
--- Create table for 2018/19 Premier League standings
 CREATE TABLE premierleague_1819 (
     position INT PRIMARY KEY,
     team_name VARCHAR(50),
@@ -35,3 +34,4 @@ VALUES
 (18, 'Cardiff City', 38, 10, 4, 24, 34, 69, -35, 34),
 (19, 'Fulham', 38, 7, 5, 26, 34, 81, -47, 26),
 (20, 'Huddersfield Town', 38, 3, 7, 28, 22, 76, -54, 16);
+
