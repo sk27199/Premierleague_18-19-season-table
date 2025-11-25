@@ -1,7 +1,7 @@
--- Create table for 2018/19 Premier League standings
+
 CREATE TABLE premierleague_1819 (
     position INT PRIMARY KEY,
-    team_name VARCHAR(50),
+    team_name VARCHAR(50),     
     played INT,
     wins INT,
     draws INT,
@@ -12,7 +12,7 @@ CREATE TABLE premierleague_1819 (
     points INT
 );
 
--- Insert all 20 teams (official 2018/19 season final table)
+(official 2018/19 season final table)
 INSERT INTO premierleague_1819 (position, team_name, played, wins, draws, losses, goals_for, goals_against, goal_difference, points)
 VALUES
 (1, 'Manchester City', 38, 32, 2, 4, 95, 23, 72, 98),
@@ -35,5 +35,6 @@ VALUES
 (18, 'Cardiff City', 38, 10, 4, 24, 34, 69, -35, 34),
 (19, 'Fulham', 38, 7, 5, 26, 34, 81, -47, 26),
 (20, 'Huddersfield Town', 38, 3, 7, 28, 22, 76, -54, 16);
+
 
 
